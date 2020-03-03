@@ -21,14 +21,15 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 
+## VSCodeの設定
+
+VSCodeの拡張機能`Setting Sync`を用いて管理する。
+https://gist.github.com/utadachiren/0fca9f69a9f04eeaecce6218351a5bf0
+
 ## wslの設定
 
-* [ここ](https://simplestar-tech.hatenablog.com/entry/2019/10/14/101551)を参考にubuntuをinstall
+[ここ](https://simplestar-tech.hatenablog.com/entry/2019/10/14/101551)を参考にubuntuをinstall
 
-### VSCodeのターミナルをbashにする
+### nodebrew
 
-**※ここはvscodeの設定リポジトリに移動予定**
-
-* settings.jsonに以下を追加
-    
-    `"terminal.integrated.shell.windows": "C:/Windows/Sysnative/bash.exe"`
+[ここ](https://www.kimoton.com/entry/20190215/1550166179)を参考にnodeをinstall。npm, yarnも勝手に入る。
