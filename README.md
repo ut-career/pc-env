@@ -20,3 +20,15 @@ https://chocolatey.org/install#installing-chocolatey
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
+
+## wslの設定
+
+* [ここ](https://simplestar-tech.hatenablog.com/entry/2019/10/14/101551)を参考にubuntuをinstall
+
+### VSCodeのターミナルをbashにする
+
+**※ここはvscodeの設定リポジトリに移動予定**
+
+* settings.jsonに以下を追加
+    
+    `"terminal.integrated.shell.windows": "C:/Windows/Sysnative/bash.exe"`
