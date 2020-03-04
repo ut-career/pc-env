@@ -46,4 +46,8 @@ git config --global user.name "Your Name"
 ### docker
 
 [公式Doc](https://docs.docker.com/v17.06/engine/installation/linux/docker-ce/ubuntu/#install-using-the-convenience-script)を参考にinstall。
-`sudo service docker run`の際に、wslを管理者権限で実行している必要があるので注意。
+
+#### 注意
+
+* docker-ceはver17を採用 `sudo apt-get install docker-ce=17.09.1~ce-0~ubuntu`
+* `sudo service docker run`の際に、wslを管理者権限で実行している必要がある。
