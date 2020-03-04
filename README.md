@@ -10,7 +10,7 @@ https://chocolatey.org/install#installing-chocolatey
 
 ### アプリケーションのinstall
 
-`choco install -y git nodejs yarn golang python vscode googleChrome`
+`choco install -y git nodejs yarn golang python vscode googleChrome teraterm`
 
 ### install済みアプリケーションの一覧
 
