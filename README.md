@@ -10,7 +10,7 @@ https://chocolatey.org/install#installing-chocolatey
 
 ### アプリケーションのinstall
 
-`choco install -y git nodejs yarn golang python vscode googleChrome teraterm`
+`choco install -y git nodejs yarn golang python vscode googleChrome teraterm visualstudio2017-workload-vctools`
 
 ### install済みアプリケーションの一覧
 
@@ -22,6 +22,25 @@ https://chocolatey.org/install#installing-chocolatey
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
+
+### clasp - GASのgit管理
+
+1. claspのinstall
+
+    ```
+    npm i @google/clasp -g
+    ```
+
+2. GAS API を 設定
+
+    [ここ](https://script.google.com/home/usersettings)にアクセスしてAPIをONに
+
+3. clasp login
+
+    ```
+    clasp login
+    ```
+
 
 ## VSCodeの設定
 
