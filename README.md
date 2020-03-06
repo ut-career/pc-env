@@ -51,6 +51,13 @@ https://gist.github.com/utadachiren/0fca9f69a9f04eeaecce6218351a5bf0
 
 [ここ](https://simplestar-tech.hatenablog.com/entry/2019/10/14/101551)を参考にubuntuをinstall
 
+### git init
+
+```bash
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
 ### nodebrew
 
 [ここ](https://www.kimoton.com/entry/20190215/1550166179)を参考にnodeをinstall。npm, yarnも勝手に入る。
@@ -58,4 +65,8 @@ https://gist.github.com/utadachiren/0fca9f69a9f04eeaecce6218351a5bf0
 ### docker
 
 [公式Doc](https://docs.docker.com/v17.06/engine/installation/linux/docker-ce/ubuntu/#install-using-the-convenience-script)を参考にinstall。
-`sudo service docker run`の際に、wslを管理者権限で実行している必要があるので注意。
+
+#### 注意
+
+* docker-ceはver17を採用 `sudo apt-get install docker-ce=17.09.1~ce-0~ubuntu`
+* `sudo service docker run`の際に、wslを管理者権限で実行している必要がある。
