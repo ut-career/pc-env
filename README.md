@@ -4,6 +4,15 @@
 
 chocolateryを使って開発環境を整備する。
 
+### スクリプトの実行ポリシーの変更
+
+スクリプトの実行が無効化される場合があるので、実行ポリシーを変更しておく。
+
+```
+# 管理者権限でPowershellを開き、以下を実施
+PowerShell Set-ExecutionPolicy RemoteSigned
+```
+
 ### chocolateryのinstall
 
 https://chocolatey.org/install#installing-chocolatey
@@ -40,7 +49,6 @@ git config --global user.name "Your Name"
     ```
     clasp login
     ```
-
 
 ## VSCodeの設定
 
