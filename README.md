@@ -19,7 +19,9 @@ https://chocolatey.org/install#installing-chocolatey
 
 ### アプリケーションのinstall
 
-`choco install -y git nodejs yarn golang python vscode googleChrome teraterm visualstudio2017-workload-vctools`
+* `choco install -y git nodejs yarn golang python vscode googleChrome teraterm visualstudio2017-workload-vctools`
+* windows proの場合はdocker desktopもinstall
+    `choco install docker-desktop`
 
 ### install済みアプリケーションの一覧
 
@@ -72,9 +74,7 @@ git config --global user.name "Your Name"
 
 ### docker
 
-[公式Doc](https://docs.docker.com/v17.06/engine/installation/linux/docker-ce/ubuntu/#install-using-the-convenience-script)を参考にinstall。
+docker desktopがinstallされている前提で、docker desktopのdaemonを利用します。
 
-#### 注意
-
-* docker-ceはver17を採用 `sudo apt-get install docker-ce=17.09.1~ce-0~ubuntu`
-* `sudo service docker run`の際に、wslを管理者権限で実行している必要がある。
+1. [公式Doc](https://docs.docker.com/v17.06/engine/installation/linux/docker-ce/ubuntu/#install-using-the-convenience-script)を参考にinstall。
+2. `docker.exe version`でversion確認
