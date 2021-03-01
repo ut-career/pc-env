@@ -19,9 +19,7 @@ https://chocolatey.org/install#installing-chocolatey
 
 ### アプリケーションのinstall
 
-* `choco install -y git nodejs yarn golang python vscode googleChrome teraterm visualstudio2017-workload-vctools`
-* windows proの場合はdocker desktopもinstall
-    `choco install docker-desktop`
+* `choco install -y git nodejs yarn golang python vscode googleChrome teraterm visualstudio2017-workload-vctools docker-desktop`
 
 ### install済みアプリケーションの一覧
 
