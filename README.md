@@ -19,7 +19,7 @@ https://chocolatey.org/install#installing-chocolatey
 
 ### アプリケーションのinstall
 
-* `choco install -y git nodejs yarn golang python vscode googleChrome teraterm visualstudio2017-workload-vctools docker-desktop`
+* `choco install -y git nodejs yarn golang python vscode googleChrome teraterm docker-desktop`
 
 ### install済みアプリケーションの一覧
 
@@ -53,7 +53,7 @@ git config --global user.name "Your Name"
 ## VSCodeの設定
 
 VSCodeの拡張機能`Setting Sync`を用いて管理する。
-https://gist.github.com/utadachiren/0fca9f69a9f04eeaecce6218351a5bf0
+https://code.visualstudio.com/docs/editor/settings-sync
 
 ## wslの設定
 
